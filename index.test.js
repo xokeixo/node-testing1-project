@@ -13,7 +13,7 @@ describe('[Exercise 1] trimProperties', () => {
     const expected = { name: 'jane' }
 
     expect(utils.trimProperties(input)).toEqual(expected)
-    expect(utils.trimProperties(input)).not.toEqual(input)
+    expect(utils.trimProperties(input)).not.toBe(input)
   })
 })
 
@@ -31,7 +31,7 @@ describe('[Exercise 2] trimPropertiesMutation', () => {
 describe('[Exercise 3] findLargestInteger', () => {
   const integers = [{ integer: 1, integer: 2, integer: 3 }]
   test('[5] returns the largest number in an array of objects { integer: 2 }', () => {
-    expect(utils.findLargestInteger(integers)).toBe(2)
+    expect(utils.findLargestInteger(integers)).toBe(3)
   })
 })
 
