@@ -49,7 +49,7 @@ function findLargestInteger(integers) {
   } 
   return largest
 }
-
+ 
 class Counter {
   /**
    * [Exercise 4A] Counter creates a counter
